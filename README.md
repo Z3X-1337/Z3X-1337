@@ -18,7 +18,7 @@
 
 | Project | What it does | Current evidence |
 | --- | --- | --- |
-| **[SOC CaseForge](https://github.com/Z3X-1337/soc-caseforge)** | Connects evidence ingestion, timeline preservation, IOC extraction, deterministic detections, case storage, and analyst reporting in one local-first workflow. | Primary project; installable `v0.1.0` CLI, SQLite, OpenSSH ingestion, JSON/Markdown reports, 24 tests |
+| **[SOC CaseForge](https://github.com/Z3X-1337/soc-caseforge)** | Connects evidence ingestion, timeline preservation, IOC extraction, deterministic detections, case storage, and analyst reporting in one local-first workflow. | Primary project; installable `v0.1.0` CLI, SQLite, OpenSSH ingestion, JSON/Markdown reports, 24 tests, [demo report](https://github.com/Z3X-1337/soc-caseforge/blob/main/docs/demo-report.md) |
 | [Auth Log Analyzer](https://github.com/Z3X-1337/auth-log-analyzer) | Parses OpenSSH authentication logs and identifies repeated failures, password-spray behavior, and suspicious source activity. | Installable `v0.1.0` CLI, 12 tests, IPv4/IPv6, JSON/Markdown, ATT&CK rationale |
 | [IOC Sanitizer](https://github.com/Z3X-1337/ioc-sanitizer) | Extracts, validates, normalizes, defangs, and refangs standard and commonly defanged indicators. | Installable `v0.1.0` CLI, 13 tests, IPv4/IPv6, JSON/CSV, source traceability |
 | [Security Header Auditor](https://github.com/Z3X-1337/security-header-auditor) | Reviews selected HTTP response security headers for authorized targets and CI quality gates. | Installable `v0.1.0` CLI, 16 tests, redirects, CSP baseline, stable exit codes |
@@ -33,6 +33,9 @@ The portfolio contains **65 unit, CLI, storage, and local integration tests**. E
 ## Current Direction
 
 I am preparing for an entry-level SOC role while building toward threat hunting. My main engineering focus is SOC CaseForge: a local-first case workflow that turns sanitized evidence into structured timelines, indicators, explainable findings, and reviewable reports.
+
+- [Review the sanitized end-to-end demonstration](https://github.com/Z3X-1337/soc-caseforge/blob/main/docs/demo-report.md)
+- [Track the evidence-integrity and analyst-decision roadmap](https://github.com/Z3X-1337/soc-caseforge/issues/2)
 
 ## Working Principles
 
