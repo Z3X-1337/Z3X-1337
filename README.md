@@ -12,21 +12,25 @@
 - Authentication-log analysis and detection logic.
 - IOC extraction, normalization, and safe sharing.
 - Threat-hunting fundamentals and defensive automation.
-- Python CLI tooling with tests, structured output, and CI.
+- Installable Python CLI tooling with tests, structured output, and CI.
 
 ## Selected Projects
 
 | Project | What it does | Current evidence |
 | --- | --- | --- |
-| [Auth Log Analyzer](https://github.com/Z3X-1337/auth-log-analyzer) | Parses OpenSSH authentication logs and identifies repeated failures, password-spray behavior, and suspicious source activity. | 12 unit/CLI tests, IPv4/IPv6, JSON/Markdown reports, ATT&CK rationale |
-| [IOC Sanitizer](https://github.com/Z3X-1337/ioc-sanitizer) | Extracts, validates, normalizes, defangs, and refangs standard and commonly defanged indicators. | 13 unit/CLI tests, IPv4/IPv6, JSON/CSV output, source-form traceability |
-| [Security Header Auditor](https://github.com/Z3X-1337/security-header-auditor) | Reviews selected HTTP response security headers for authorized targets and CI quality gates. | 16 unit/integration tests, redirect tracing, CSP baseline analysis, stable CI exit codes |
+| [Auth Log Analyzer](https://github.com/Z3X-1337/auth-log-analyzer) | Parses OpenSSH authentication logs and identifies repeated failures, password-spray behavior, and suspicious source activity. | Installable `v0.1.0` CLI, 12 tests, IPv4/IPv6, JSON/Markdown, ATT&CK rationale |
+| [IOC Sanitizer](https://github.com/Z3X-1337/ioc-sanitizer) | Extracts, validates, normalizes, defangs, and refangs standard and commonly defanged indicators. | Installable `v0.1.0` CLI, 13 tests, IPv4/IPv6, JSON/CSV, source traceability |
+| [Security Header Auditor](https://github.com/Z3X-1337/security-header-auditor) | Reviews selected HTTP response security headers for authorized targets and CI quality gates. | Installable `v0.1.0` CLI, 16 tests, redirects, CSP baseline, stable exit codes |
 
-The portfolio currently contains **41 unit, CLI, and local integration tests**. All three repositories run automated tests through GitHub Actions against Python 3.10, 3.11, and 3.12.
+The portfolio contains **41 unit, CLI, and local integration tests**. Every project:
+
+- runs GitHub Actions against Python 3.10, 3.11, and 3.12;
+- validates package installation and the installed console command;
+- includes MIT licensing, Semantic Versioning metadata, a changelog, and an engineering roadmap.
 
 ## Current Direction
 
-I am preparing for an entry-level SOC role while building toward threat hunting. My current engineering priority is to turn small defensive utilities into stronger analyst workflows with better parsing, detection rationale, test coverage, and reporting.
+I am preparing for an entry-level SOC role while building toward threat hunting. My next engineering priority is deeper data coverage, time-aware detections, representative false-positive datasets, and stronger analyst workflows rather than superficial feature growth.
 
 ## Working Principles
 
@@ -34,4 +38,4 @@ I am preparing for an entry-level SOC role while building toward threat hunting.
 - Sanitized samples instead of real credentials or customer data.
 - Deterministic results before AI-assisted enrichment.
 - Findings should include evidence, limitations, and a clear next action.
-- Public claims must be supported by code, tests, or documentation.
+- Public claims must be supported by code, tests, CI, or documentation.
