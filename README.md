@@ -18,11 +18,11 @@
 
 | Project | What it does | Current evidence |
 | --- | --- | --- |
-| [Auth Log Analyzer](https://github.com/Z3X-1337/auth-log-analyzer) | Parses OpenSSH authentication logs and identifies repeated failures, password-spray behavior, and suspicious source activity. | 7 unit/CLI tests, JSON reports, configurable thresholds |
+| [Auth Log Analyzer](https://github.com/Z3X-1337/auth-log-analyzer) | Parses OpenSSH authentication logs and identifies repeated failures, password-spray behavior, and suspicious source activity. | 12 unit/CLI tests, IPv4/IPv6, JSON/Markdown reports, ATT&CK rationale |
 | [IOC Sanitizer](https://github.com/Z3X-1337/ioc-sanitizer) | Extracts, normalizes, defangs, and refangs common indicators of compromise. | 6 unit/CLI tests, grouped output, standard-library implementation |
 | [Security Header Auditor](https://github.com/Z3X-1337/security-header-auditor) | Reviews common HTTP response security headers for authorized targets. | 7 unit/CLI tests, policy-based findings, JSON output |
 
-All three repositories run automated tests through GitHub Actions against Python 3.10, 3.11, and 3.12.
+The portfolio currently contains **25 unit and CLI tests**. All three repositories run automated tests through GitHub Actions against Python 3.10, 3.11, and 3.12.
 
 ## Current Direction
 
