@@ -1,48 +1,37 @@
-# Z3X
+# Zaid Hijazi
 
-Cybersecurity learner building practical defensive tools for blue-team workflows, SOC fundamentals, log analysis, IOC handling, and web security hygiene.
+**Final-year Cybersecurity student focused on Blue Team operations, SOC analysis, threat hunting, and Python security automation.**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Z3X--1337.github.io-0f766e?style=for-the-badge)](https://Z3X-1337.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Zaid%20Hijazi-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zaid-hijazi-a34b97278/)
-[![GitHub](https://img.shields.io/badge/GitHub-Z3X--1337-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Z3X-1337)
+[![Portfolio](https://img.shields.io/badge/Portfolio-z3x--1337.github.io-0f766e?style=flat-square)](https://z3x-1337.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Zaid%20Hijazi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zaid-hijazi-a34b97278/)
+[![GitHub](https://img.shields.io/badge/GitHub-Z3X--1337-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Z3X-1337)
 
-## What I Build
+## Focus
 
-I focus on small, reliable security tools that are easy to inspect, safe to run, and useful for learning real defensive workflows.
+- SOC alert triage, evidence handling, and incident reporting.
+- Authentication-log analysis and detection logic.
+- IOC extraction, normalization, and safe sharing.
+- Threat-hunting fundamentals and defensive automation.
+- Python CLI tooling with tests, structured output, and CI.
 
-- IOC extraction, defanging, and reporting utilities.
-- Authentication log analysis and suspicious activity summaries.
-- HTTP security header checks for authorized websites.
-- Clean Python command-line tools with structured output.
-- Documentation, tests, and CI for every public project.
+## Selected Projects
 
-## Featured Projects
-
-| Project | Purpose | Engineering Practices |
+| Project | What it does | Current evidence |
 | --- | --- | --- |
-| [ioc-sanitizer](https://github.com/Z3X-1337/ioc-sanitizer) | Extracts, normalizes, defangs, and refangs common indicators of compromise. | Typed Python, CLI modes, unit tests, sanitized samples |
-| [auth-log-analyzer](https://github.com/Z3X-1337/auth-log-analyzer) | Parses SSH-style authentication logs and highlights brute-force patterns. | Dataclasses, detection thresholds, JSON reports, tests |
-| [security-header-auditor](https://github.com/Z3X-1337/security-header-auditor) | Audits common HTTP security headers for websites I own or am authorized to assess. | Header policy checks, scoring, CLI output, tests |
+| [Auth Log Analyzer](https://github.com/Z3X-1337/auth-log-analyzer) | Parses OpenSSH authentication logs and identifies repeated failures, password-spray behavior, and suspicious source activity. | 7 unit/CLI tests, JSON reports, configurable thresholds |
+| [IOC Sanitizer](https://github.com/Z3X-1337/ioc-sanitizer) | Extracts, normalizes, defangs, and refangs common indicators of compromise. | 6 unit/CLI tests, grouped output, standard-library implementation |
+| [Security Header Auditor](https://github.com/Z3X-1337/security-header-auditor) | Reviews common HTTP response security headers for authorized targets. | 7 unit/CLI tests, policy-based findings, JSON output |
 
-## Skills
+All three repositories run automated tests through GitHub Actions against Python 3.10, 3.11, and 3.12.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Blue Team](https://img.shields.io/badge/Blue%20Team-0F766E?style=flat-square)
-![SOC](https://img.shields.io/badge/SOC%20Fundamentals-334155?style=flat-square)
-![Web Security](https://img.shields.io/badge/Web%20Security-7C2D12?style=flat-square)
+## Current Direction
 
-## Current Focus
+I am preparing for an entry-level SOC role while building toward threat hunting. My current engineering priority is to turn small defensive utilities into stronger analyst workflows with better parsing, detection rationale, test coverage, and reporting.
 
-- Building a defensive cybersecurity portfolio with documented, tested projects.
-- Strengthening Python automation for security operations.
-- Learning SOC workflows: triage, evidence, context, and clear reporting.
-- Improving project quality through repeatable tests and CI.
+## Working Principles
 
-## Principles
-
-- Work only on systems I own or have explicit permission to assess.
-- Use sanitized samples, never real credentials, secrets, or private logs.
-- Prefer simple, inspectable tools over opaque automation.
-- Document assumptions, limitations, and safe usage clearly.
+- Defensive and authorized use only.
+- Sanitized samples instead of real credentials or customer data.
+- Deterministic results before AI-assisted enrichment.
+- Findings should include evidence, limitations, and a clear next action.
+- Public claims must be supported by code, tests, or documentation.
