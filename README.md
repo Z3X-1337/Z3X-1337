@@ -62,7 +62,7 @@ Focused on:
 - Core security concepts.
 - Defensive security principles.
 
-[View Certificates](https://github.com/Z3X-1337/certifications)
+[View Certificates](https://github.com/Z3X-1337/)
 
 ---
 
