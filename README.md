@@ -10,11 +10,19 @@
 
 </div>
 
+<p align="center">
+  <a href="#mission">Mission</a> ·
+  <a href="#public-engineering-evidence">Projects</a> ·
+  <a href="#research-notes">Research notes</a> ·
+  <a href="#training">Training</a> ·
+  <a href="#contact">Contact</a>
+</p>
+
 ```text
 ┌──────────────────────────────────────────────────────────────────────────┐
 │ Z3X / SECURITY PROFILE                                                   │
 │                                                                          │
-│ PRIMARY VECTOR   SOC  →  THREAT HUNTING                                 │
+│ PRIMARY FOCUS    SOC  →  THREAT HUNTING                                 │
 │ ENGINEERING      Python / SQLite / CLI / Testing / GitHub Actions        │
 │ DETECTION        Deterministic / Evidence-backed / Explainable           │
 │ DATA HANDLING    Local-first / Sanitized evidence / Explicit boundaries  │
@@ -53,6 +61,17 @@ The immediate goal is an **entry-level SOC role**. The longer path is **threat h
 
 **Security automation** — small Python systems that are installable, testable, deterministic, and useful from the command line.
 
+## Research notes
+
+Short, evidence-first observations from the public projects above:
+
+- **Authorization is a server-side decision.** A visible control or client-side state is not evidence that an actor may access a resource; the actor, action, resource, and organization boundary still need to be checked by the server.
+- **Authentication telemetry needs context.** Repeated failures, multiple usernames, authentication method, source address, and a later success are useful signals for review—not proof of malicious intent on their own.
+- **Security headers are control surfaces.** A header's presence is only one observation; redirects, error responses, policy directives, and the effective application behavior matter too.
+- **IOC handling should preserve provenance.** Keep the original matched form, normalized value, source context, and analyst limitations together so a finding remains reviewable.
+
+These are educational notes, not claims of findings against third-party systems.
+
 ## Training
 
 ### National Cyber Security Center (Jordan) — Cyber Warriors
@@ -68,7 +87,7 @@ The immediate goal is an **entry-level SOC role**. The longer path is **threat h
 
 Training covering cybersecurity fundamentals, core security concepts, and defensive security principles.
 
-[View certificates →](https://z3x-1337.github.io/assets/certificates)
+[View certificates →](./assets/certificates/)
 
 ## Engineering principles
 
