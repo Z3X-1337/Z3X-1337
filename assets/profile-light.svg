@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Z3X-1337 security engineering profile banner</title>
+  <desc id="desc">A light technical profile banner for Zaid Hijazi.</desc>
+  <rect width="1200" height="360" fill="#f8fafc"/>
+  <g stroke="#d7dfe6" stroke-width="1">
+    <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/>
+    <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
+  </g>
+  <path d="M72 66H1110" stroke="#aab6c2" stroke-width="1"/>
+  <path d="M72 66H242" stroke="#5f8b24" stroke-width="3"/>
+  <text x="72" y="138" fill="#101820" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="56" font-weight="700" letter-spacing="-4">Z3X-1337</text>
+  <text x="76" y="173" fill="#17608c" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17" font-weight="700" letter-spacing="2">SECURITY ENGINEERING / EVIDENCE-FIRST SYSTEMS</text>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">
+    <text x="76" y="245" fill="#17608c">01</text><text x="126" y="245" fill="#101820">PUBLIC SECURITY TOOLING</text>
+    <text x="76" y="280" fill="#17608c">02</text><text x="126" y="280" fill="#101820">REVIEWABLE EVIDENCE</text>
+    <text x="76" y="315" fill="#17608c">03</text><text x="126" y="315" fill="#101820">BOUNDED SYSTEMS</text>
+  </g>
+  <g transform="translate(906 115)" fill="none" stroke="#17608c" stroke-width="2">
+    <rect width="180" height="130"/>
+    <path d="M25 35H155M25 65H116M25 95H140"/>
+    <circle cx="148" cy="95" r="8" fill="#5f8b24" stroke="none"/>
+  </g>
+</svg>
