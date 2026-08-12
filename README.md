@@ -1,66 +1,110 @@
-# Zaid Hijazi
+<div align="center">
 
-**Final-year Cybersecurity student focused on Blue Team operations, SOC analysis, threat-hunting fundamentals, and Python security automation.**
+# `Z3X-1337`
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-z3x--1337.github.io-65e6b5?style=flat-square)](https://z3x-1337.github.io) [![GitHub](https://img.shields.io/badge/GitHub-Z3X--1337-181717?style=flat-square&logo=github)](https://github.com/Z3X-1337) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Zaid%20Hijazi-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/zaid-hijazi-a34b97278/) [![Bugcrowd](https://img.shields.io/badge/Bugcrowd-Z3X-F26822?style=flat-square)](https://bugcrowd.com/h/Z3X)
+### ZAID HIJAZI · DEFENSIVE SECURITY ENGINEERING
 
-## Focus
+**Cybersecurity student focused on SOC operations, threat-hunting fundamentals, detection engineering, and Python security automation.**
 
-- SOC case handling, evidence preservation, and incident reporting.
-- Authentication-log analysis and explainable detection logic.
-- IOC extraction, normalization, and safe evidence sharing.
-- Threat-hunting fundamentals and defensive automation.
-- Installable Python security tooling with structured output, SQLite, tests, and CI.
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-z3x--1337.github.io-66f2b4?style=for-the-badge&labelColor=05070b)](https://z3x-1337.github.io/) [![GitHub](https://img.shields.io/badge/GITHUB-Z3X--1337-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Z3X-1337) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-Zaid%20Hijazi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zaid-hijazi-a34b97278/) [![Bugcrowd](https://img.shields.io/badge/BUGCROWD-Z3X-F26822?style=for-the-badge)](https://bugcrowd.com/h/Z3X)
 
-## Selected public work
+</div>
 
-| Project | Evidence |
-| --- | --- |
-| **[SOC CaseForge](https://github.com/Z3X-1337/soc-caseforge)** | Local-first SOC workflow; installable `v0.1.0` CLI, SQLite, OpenSSH ingestion, JSON/Markdown reports, 24 tests, and a committed demo report. |
-| **[Auth Log Analyzer](https://github.com/Z3X-1337/auth-log-analyzer)** | OpenSSH authentication analysis; installable `v0.1.0` CLI, IPv4/IPv6 support, JSON/Markdown output, ATT&CK rationale, and 12 tests. |
-| **[IOC Sanitizer](https://github.com/Z3X-1337/ioc-sanitizer)** | IOC extraction and normalization; installable `v0.1.0` CLI, JSON/CSV output, source traceability, and 13 tests. |
-| **[Security Header Auditor](https://github.com/Z3X-1337/security-header-auditor)** | Selected HTTP security-header review for authorized targets; installable `v0.1.0` CLI, CSP observations, CI thresholds, and 16 tests. |
+```text
+┌──────────────────────────────────────────────────────────────────────────┐
+│ Z3X / SECURITY PROFILE                                                   │
+│                                                                          │
+│ PRIMARY VECTOR   SOC  →  THREAT HUNTING                                 │
+│ ENGINEERING      Python / SQLite / CLI / Testing / GitHub Actions        │
+│ DETECTION        Deterministic / Evidence-backed / Explainable           │
+│ DATA HANDLING    Local-first / Sanitized evidence / Explicit boundaries  │
+└──────────────────────────────────────────────────────────────────────────┘
+```
 
-## Engineering evidence
+## Mission
 
-- 65 unit, CLI, storage, and local integration tests across the public defensive tooling.
-- GitHub Actions CI against Python 3.10, 3.11, and 3.12.
-- Public projects include installation checks, MIT licensing, Semantic Versioning metadata, changelogs, and documented roadmaps.
+Build practical defensive-security systems that make analyst work more structured, reproducible, and reviewable.
 
-## Certifications & training
+The immediate goal is an **entry-level SOC role**. The longer path is **threat hunting**: forming a hypothesis, identifying the telemetry required to test it, preserving an evidence chain, and communicating confidence and limitations clearly.
 
-### National Cyber Security Center (Jordan) — Cyber Warriors Training
+## Public engineering evidence
 
-- CTF training for university students, 40 hours, completed 2026.
-- CTF training for university students, 40 hours, completed 2024.
+| Repository | What it demonstrates |
+|---|---|
+| **[SOC CaseForge](https://github.com/Z3X-1337/soc-caseforge)** | Local-first SOC workflow: evidence ingestion → normalized timeline → IOC extraction → deterministic findings → Markdown/JSON reports. SQLite-backed, 24 tests, Python 3.10–3.12 CI. |
+| **[Auth Log Analyzer](https://github.com/Z3X-1337/auth-log-analyzer)** | OpenSSH authentication analysis for repeated failures, password-spray-style behavior, invalid users, accepted logins, IPv4/IPv6, and multiple SSH methods. 12 tests. |
+| **[IOC Sanitizer](https://github.com/Z3X-1337/ioc-sanitizer)** | Deterministic IOC extraction, validation, normalization, defanging/refanging, and traceable JSON/CSV output. 13 tests. |
+| **[Security Header Auditor](https://github.com/Z3X-1337/security-header-auditor)** | Authorized HTTP response-header review with CSP observations, redirect handling, deterministic CI thresholds, and 16 tests. |
+
+### Current evidence surface
+
+- **65+ tests** across the public defensive tooling.
+- GitHub Actions coverage for **Python 3.10, 3.11, and 3.12**.
+- Installable `v0.1.0` Python CLIs with versioned packaging, changelogs, roadmaps, MIT licensing, and security policies.
+- Public projects use sanitized evidence and explicitly document detection limitations.
+
+## Blue Team focus
+
+**SOC operations** — case handling, evidence preservation, authentication telemetry, incident reporting, and analyst-oriented outputs.
+
+**Detection engineering** — threshold-based observations, reproducible rules, evidence-backed findings, ATT&CK assistance, and false-positive awareness.
+
+**Threat hunting** — hypothesis formation, telemetry requirements, evidence chains, confidence language, and iterative investigation workflows.
+
+**Security automation** — small Python systems that are installable, testable, deterministic, and useful from the command line.
+
+## Training
+
+### National Cyber Security Center (Jordan) — Cyber Warriors
+
+- 40-hour CTF training for university students — completed **2026**.
+- 40-hour CTF training for university students — completed **2024**.
 
 ### Immersive Labs — Continuing Professional Education
 
-23 CPE hours, 47 hands-on labs, and 6720 points covering threat hunting and IOC analysis, incident response, digital forensics, network traffic analysis, reverse-engineering fundamentals, Splunk detection workflows, web-security fundamentals, and security investigation methodologies.
+**23 CPE hours · 47 hands-on labs · 6720 points** covering threat hunting and IOC analysis, incident response, digital forensics, network traffic analysis, reverse-engineering fundamentals, Splunk detection workflows, web-security fundamentals, and security investigation methodologies.
 
 ### Green Circle For Software Solutions — Cyber Security Associate Course
 
-Training focused on cybersecurity fundamentals, core security concepts, and defensive security principles.
+Training covering cybersecurity fundamentals, core security concepts, and defensive security principles.
 
-[View certificates](https://z3x-1337.github.io/assets/certificates)
+[View certificates →](https://z3x-1337.github.io/assets/certificates)
 
-## Current direction
+## Engineering principles
 
-I am preparing for an entry-level SOC role while building toward threat hunting.
+```text
+01  Scope before implementation.
+02  Preserve evidence and provenance.
+03  Prefer deterministic security logic before enrichment.
+04  Every finding should expose evidence, confidence, limitations, and next actions.
+05  Tests, CI, packaging, and documentation are part of the security artifact.
+06  Public claims should be traceable to code, tests, CI, or documentation.
+07  Use authorized and sanitized data only.
+```
 
-My main engineering focus is **SOC CaseForge**: a local-first security investigation workflow that transforms sanitized evidence into structured timelines, indicators, explainable findings, and reviewable reports.
+## Current build direction
 
-## Working principles
+**SOC CaseForge** is the central engineering track. The next phase prioritizes evidence integrity and analyst decisions over superficial feature growth:
 
-- Defensive and authorized use only.
-- Sanitized samples instead of real credentials or customer data.
-- Deterministic security results before AI-assisted enrichment.
-- Findings should include evidence, confidence, limitations, and clear next actions.
-- Public claims should be supported by code, tests, CI, or documentation.
+- timezone-aware timestamps;
+- CSV and generic JSON adapters;
+- analyst notes and dispositions;
+- suppression / allowlist policies;
+- SHA-256 evidence manifests;
+- representative false-positive datasets.
 
-## Links
+## Contact
 
-- Portfolio: https://z3x-1337.github.io
-- GitHub: https://github.com/Z3X-1337
-- LinkedIn: https://www.linkedin.com/in/zaid-hijazi-a34b97278/
-- Bugcrowd: https://bugcrowd.com/h/Z3X
+| Channel | Use |
+|---|---|
+| [GitHub](https://github.com/Z3X-1337) | Code, issues, project history |
+| [LinkedIn](https://www.linkedin.com/in/zaid-hijazi-a34b97278/) | Professional opportunities |
+| [Email](mailto:z3x1337@gmail.com) | Direct project communication |
+
+> **Security boundary:** do not send credentials, customer data, production logs, tokens, or confidential incident material through public channels.
+
+<div align="center">
+
+`Z3X-1337` // observe · normalize · explain · validate
+
+</div>
